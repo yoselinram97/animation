@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #161616;
+}
+
+/*navbar*/
+
+ol,ul {
+	list-style: none;
+}
+
+div.scrollmenu li {
+	display:inline-block;
+	width:10%;
+	float:left;
+	margin-left:0px;
+}
+
+div.scrollmenu {
+  background-color: #161616;
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 15px;
+}
+
+div.scrollmenu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+div.scrollmenu a.active {
+  background-color: #689775;
+}
+
+
+
+/* Style the header */
+header {
+  background-color: #a33327;
+  padding: 30px;
+  text-align: center;
+  font-size: 45px;
+}
+
+
+
+
+/*style for glowing header*/
+
+.glow {
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px , 0 0 4px , 0 0 6px #7A1712, 0 0 8px #7A1712, 0 0 10px #7A1712, 0 0 12px #7A1712, 0 0 14px #7A1712;
+  }
+
+  to {
+    text-shadow: 0 0 10px , 0 0 4px #9B1003, 0 0 8px #9B1003, 0 0 12px #9B1003, 0 0 16px #9B1003, 0 0 20px #9B1003, 0 0 24px #9B1003;
+  }
+}
+
+/* after the header and navbar*/
+
+h1 {
+  text-align: center;
+}
+
+
+.color-div {
+  height: 60px;
+  background-color: green;
+}
+
+video {
+  width: 55%;
+}
+
+section {
+  margin: 20px auto;
+  text-align: center;
+}
+
+p {
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+.header {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #990F02;
+}
+
+h2 {
+  color: #9E4244;
+}
+
+
+div {
+  border: 0px solid #4CAF50;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*for footer icons*/
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-vimeo {
+  color: #fc4c4e;
+}
+
+.fa-instagram {
+  color: #fc4c4e;
+}
+
+.fa-google {
+  color: #fc4c4e;
+}
